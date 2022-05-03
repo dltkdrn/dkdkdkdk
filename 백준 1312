@@ -1,6 +1,6 @@
-a,b,n = map(int, input().split())
-a%=b
-for i in range(n-1):
+a,b,n = map(int, input().split()) (각각의 값 입력 받기)
+a%=b  (a를 b로 나눈 나머지를 먼저 a에 저장)
+for i in range(n-1):  (n-1번 나머지를 가지고 일반적인 나눗셈 연산)
     a= (a*10)%b
-result = (a*10)//b
-print(result)
+result = (a*10)//b  (n-1번 한 나머지를 가지고 마지막 한번 더 연산 하고 몫 저장)
+print(result) (몫 출력) 
